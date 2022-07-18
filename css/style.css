@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&family=Lato&family=Libre+Baskerville&family=Roboto:wght@300&family=Tapestry&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Libre Baskerville', serif;
+    background-color: black;
+}
+
+.fulldisplay
+{
+    height: 60vh;
+    padding-top: 10px;
+    justify-content: flex-start; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 250px;
+    padding-top: 0px;
+    /* border-bottom: 2px solid; */
+    height: 70px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav.navC{
+    margin: 0px;
+    background-color:pink;
+    position: sticky;
+    top: 0;
+}
+
+.listshow {
+  
+    height: 100%;
+
+}
+
+
+ .video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 0px;
+    z-index: -1;
+    opacity: 0.7;
+ 
+   
+}
+
+.cross{
+    display: none;
+    padding-bottom: 30px;
+}
+
+.hamA{
+    width: 20px;
+    border-top: 2px solid #4d4d4d ;
+    padding-bottom:-10px ;
+    transform: rotate(50deg);
+}
+.hamC{
+    width: 20px;
+    border-top: 2px solid #4d4d4d ;
+    padding-bottom:-15px ;
+    transform: rotate(-50deg);
+}
+
+.info{
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 150px 150px;
+color: white;
+/* background-color: aqua; */
+align-items: center;
+/* justify-content: flex-end; */
+}
+
+.info h1{
+    font-size: 38px;
+
+}
+.info p{
+    font-size: 20px;
+    padding: 3px;
+    margin: 3px;
+
+}
+
+.logo img {
+    width: 80px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+
+
+
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.list li {
+
+    list-style: none;
+    
+}
+
+.list  li a {
+
+    text-decoration: none;
+    margin: 6px 25px;
+    color: black;
+    font-size: 20px;
+}
+.list  li a:hover  {
+
+  color: purple;
+   cursor: pointer;
+}
+
+.btn:hover , .btnC:hover{
+    background-color:#4289d0;
+}
+
+.btn{
+    background-color: #4717f6;
+    padding: 3px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    /* align-items: ; */
+    border: 2px solid #4717f6;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#Courses{
+    /* display: flex; */
+    background-color: white;
+    height: auto;  
+    /* height: 1200px; oo*/
+    margin-top: -30px;
+   
+    /* border: 5px solid rgb(227, 12, 12); */
+    
+}
+#aboutme{
+    /* display: flex; */
+    background-color: white;
+    height: auto;
+    /* height: 650px;00 */
+    margin-top: -30px;
+    
+
+    /* font-family: 'Roboto', sans-serif; */
+   
+    /* border: 5px solid rgb(227, 12, 12); */
+    
+}
+#client{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: auto;
+    /* height: 100px; */
+    /* margin-top: -30px; */
+    
+
+    /* font-family: 'Roboto', sans-serif; */
+   
+    /* border: 5px solid rgb(227, 12, 12); */
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    
+  
+    
+}
+
+#client span{
+    margin: 20px;
+    padding: 20px 0px;
+}
+
+.clt img{
+    
+    width: 200px;
+    height: 30px;
+    /* padding: 18px; */
+}
+.clt2 img{
+    width: 40px;
+    height: 40px;
+    /* padding: 18px; */
+}
+.clt3 img{
+    width: 190px 0px;
+    height: 100px;
+    margin: -29px 0px
+}
+
+.data1{
+    /* border: 2px solid;  */
+    padding-right:  50px;
+    
+    
+}
+
+.data1 h4{
+    text-align: end;
+}
+.data1 p, .data3 p{
+
+    text-align: justify;
+    color: #4d4d4d;
+    /* opacity: 0.7;
+    z-index: 10; */
+}
+
+
+
+.data3{
+    /* border: 2px solid;  */
+    padding-left:  50px;
+}
+.data2 img{
+    width: 300px; 
+}
+
+.abtData{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid palevioletred; */
+    padding: 30px 170px;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+#aboutme h3{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 35px;
+    margin: 2px;
+}
+
+#aboutme h5 {
+    text-align: center;
+    color: #4d4d4d;
+
+}
+#aboutme h4 {
+    font-size: 22px;
+
+}
+
+.crsBrd{
+    margin: 10px ;
+}
+
+.cardline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#Courses h2{
+
+    /* margin-top: 330px; */
+    padding-top: 100px;
+    margin-bottom: 60px;
+    /* background-color: aqua; */
+    text-align: center;
+    font-size: 45px;
+}
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+    width: fit-content;
+    
+    align-items: center;
+    /* margin-left: 210px; */
+    background-color: whitesmoke;
+    /* margin: 3px; */
+    padding: 0px 0px 0px 0px;
+    
+}
+
+.card li{
+    list-style: none;
+    padding: 0px 0px 20px 0px;
+    
+}
+.card li a{
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+   
+}
+.card li a img{
+    width: 300px;
+   /* margin: 3px;
+   padding: 6px; */
+ 
+}
+
+.btnC{
+    background-color: #0a66c2;
+    padding: 3px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    border: 2px solid #0a66c2;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.extraInfoCard{
+    /* 
+    
+     */
+    /* border: 2px solid; */
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    font-size: 12px;
+    
+   
+    
+    
+}
+.extraInfoCard h3{
+margin: 0px;
+padding: 0px;
+}
+.extraInfo{
+    margin-top: 40px;
+    /* padding-top: 40px; */
+    display: flex;
+    /* margin-left: 150px; */
+    /* width: 100px; */
+    /* border: 2px solid; */
+    /* background-color: aqua; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+   
+}
+
+
+.blue{
+    background-color:#0a66c2 ;
+    color: white;
+}
+
+.header{
+    background-color: rgb(194, 226, 230);
+    height: auto;
+    /* height: 440px;00 */
+}
+
+.headbox{
+    
+    display: flex;
+    padding: 20px 120px;
+    /* flex-wrap: wrap; */
+}
+.headbox div{
+    
+    padding: 30px 60px;
+    /* border: 2px solid; */
+}
+
+.logo2 img{
+    width: 200px;
+}
+
+
+
+.headlist p a{
+    text-decoration: none;
+}
+
+
+.cp{
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+.hamBurger{
+    /* border: 2px solid; */
+    /* background-color: aqua; */
+    display: none;
+}
+
+.hamB{
+    width: 40px;
+    border-top: 2px solid #4d4d4d ;
+    padding-bottom:5px ;
+}
+
+
+@media screen and  ( max-width: 1130px ) {
+
+    /* .header{
+        background-color: red;
+        
+    } */
+
+    .video{
+        margin-top: 33px;
+    }
+
+    .headbox, .extraInfo, .abtData, #client {
+    
+        flex-wrap: wrap;
+    }
+    .navbar {
+       
+        margin: 0px 50px;
+    }
+    
+    .clt img{
+        width: 60px;
+        height: 20px;
+        /* padding: 18px; */
+    }
+    .clt2 img{
+        width: 20px;
+        height: 20px;
+        /* padding: 18px; */
+    }
+    .clt3 img{
+        
+        height: 66px;
+       
+    }
+    #client span{
+        margin: 2px;
+    }
+    
+}
+
+@media screen and  ( max-width: 770px ) {
+    /* .header{
+        background-color: greenyellow;
+        
+    }  */
+
+    .headbox, .extraInfo, .abtData, #client {
+    
+        flex-wrap: wrap;
+    }
+
+    .list {
+        display: none;
+        /* flex-wrap: wrap; */
+    }
+
+    .info h1{
+        font-size: 28px;
+    
+    }
+    .info p{
+        font-size: 10px;
+        padding: 3px;
+        margin: 3px;
+    
+    }
+
+    #aboutme h3{
+      
+        font-size: 23px;
+        padding-top: 90px;
+       
+    }
+    
+    
+    #aboutme h4 {
+        font-size: 20px;
+    
+    }
+    #Courses h2{
+        font-size: 25px;
+    
+
+    
+            padding-top: 50px;
+            margin-bottom: 30px;
+    }
+
+    .abtData{
+       
+        padding: 10px 50px;
+        
+    }
+    .info{
+
+       
+        width: 400px;
+        margin: 50px 50px;
+    }
+    .hamBurger{
+     
+        display: inline;
+        cursor: pointer;
+   
+    }
+
+    .navbar {
+       
+        margin: 0px 50px;
+    }
+
+    
+}
+
+
+@media screen and  ( max-width: 500px ) {
+    /* .header{
+        background-color:green;
+        
+    }  */
+
+    .headbox, .extraInfo, .abtData, #client {
+    
+        flex-wrap: wrap;
+    }
+
+    /* .list{
+        display: none;
+    } */
+
+    .info h1{
+        font-size: 15px;
+    
+    }
+    .info p{
+        font-size: 5px;
+        padding: 3px;
+        margin: 3px;
+    
+    }
+
+    #aboutme h3{
+      
+        font-size: 11px;
+       
+    }
+    
+    
+    #aboutme h4 {
+        font-size: 10px;
+    
+    }
+    #Courses h2{
+        font-size: 12px;
+     
+            margin-bottom:2px;
+    }
+
+    .abtData{
+       
+        padding: 10px 20px;
+        
+    }
+    .abtData p{
+       
+       font-size: 8px;
+        
+    }
+    h5{
+        font-size: 5px; 
+    }
+    .info{
+
+       
+        width: 400px;
+        margin: 50px 50px;
+    }
+  
+
+    .navbar {
+       
+        margin: 0px 50px;
+        height: 50px;
+    }
+    #home{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .btn{
+        
+        padding: 1px;
+        width: 40px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+       
+    
+    }
+    .video{
+        margin-top: 33px;
+    }
+
+    .headbox{
+    
+        display: flex;
+        padding: 20px 20px;
+        /* flex-wrap: wrap; */
+    }
+    .headbox div{
+        
+        padding: 30px 60px;
+        /* border: 2px solid; */
+    }
+    
+    .logo2 img{
+        width: 100px;
+    }
+}
+
+ @media screen and  ( max-width: 320px ) {
+    .header{
+        background-color:pink;
+        
+    } 
+
+    
+
+    .info h1{
+        font-size: 15px;
+    
+    }
+    .info p{
+        font-size: 5px;
+        padding: 3px;
+        margin: 3px;
+    
+    }
+
+    #aboutme h3{
+      
+        font-size: 11px;
+       
+    }
+    
+    
+    #aboutme h4 {
+        font-size: 8px;
+    
+    }
+    #Courses h2{
+        font-size: 10px;
+    }
+
+ 
+    .abtData img{
+       
+       width: 200px;
+        
+    }
+    h5{
+        font-size: 5px; 
+    }
+    .info{
+
+       
+        width: 400px;
+        margin: 50px 50px;
+    }
+
+
+    .navbar {
+       
+        margin: 0px 50px;
+        height: 50px;
+    }
+ 
+    
+    .video{
+        margin-top: 43px;
+    }
+
+    .headbox{
+    
+        display: flex;
+        padding: 5px;
+        
+        /* flex-wrap: wrap; */
+    }
+    .headbox div{
+        
+        padding: 30px ;
+        /* border: 2px solid; */
+    }
+    
+    .logo2 img{
+        width: 100px;
+    }
+
+    .card li a{
+        font-size: 8px;
+        
+     }
+     .card li a img{
+         width: 200px;
+        /* margin: 3px;
+        padding: 6px; */
+      
+     }
+     
+     .btnC{
+         
+         padding: 3px;
+         width: 100px;
+         height: 20px;
+         border-radius: 5px;
+         font-size: 9px;
+         
+     
+     }
+} 
+
+
+
